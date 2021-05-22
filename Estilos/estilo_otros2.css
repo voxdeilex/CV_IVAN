@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background:linear-gradient(rgba(51,144,255),rgba(96,171,245));
+
+}
+
+/*header ul{
+	display: flex;
+}
+
+
+header ul li{
+	list-style: none;
+	margin-right: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+p
+
+/*-------------------------SOBRE MI ---------*/
+h3{
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+
+

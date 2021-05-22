@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	padding-top: 0px;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+header {
+width: 100%;
+height: 10%;
+background:linear-gradient(rgba(51,144,255),rgba(96,171,245));
+position: fixed;
+
+}
+
+header .contenedor {
+display: flex;
+justify-content: space-between;
+
+}
+
+header ul {
+	display: flex;
+}
+
+
+header ul li {
+	list-style: none;
+	margin-top: 20px;
+	margin-right:15px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#contenedor-titulo-flex{
+	max-width: 1580px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 18vh 0;
+	width: 100%;
+}
+
+h1{
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+h2{
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.contenedor-titulo{
+	text-align: center;
+}
+
+p.logo{
+	color:#fff;
+	font-size: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+/*-------------------------SOBRE MI ---------*/
+#cursos h3{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+
+#cursos ul li{
+margin-top: 2%;
+margin-left: 5%;
+margin-bottom: 2%;
+}
+

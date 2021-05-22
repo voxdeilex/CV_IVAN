@@ -1,0 +1,578 @@
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+
+header .contenedor {
+display: flex;
+justify-content: space-between;
+}
+
+header ul {
+	display: flex;
+}
+
+
+header ul li {
+	list-style: none;
+	margin-right:15px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.contenedor{
+	max-width: 1280px;
+	width: 100%;
+	margin: auto;
+}
+
+header{
+	background:linear-gradient(rgba(51,144,255,.5),rgba(96,171,245,.9)), url(../img/fondo2.jpg);
+	height: 100vh; 
+	background-size: cover; 
+}
+
+#contenedor-titulo-flex{
+	max-width: 1580px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 18vh 0;
+	width: 100%;
+}
+
+h1{
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+h2{
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.contenedor-titulo{
+	text-align: center;
+}
+
+/*-------------------------SOBRE MI ---------*/
+h3{
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+#sobre-mi .contenedor-sobremi {
+	display:flex;
+	justify-content: space-around;
+}
+
+#sobre-mi .contenedor-sobremi .texto a{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sobre-mi .texto {
+width: 42%;
+}
+
+
+#sobre-mi img{
+	width: 300px;
+}
+
+.contenedor-titulo a, #sobre-mi a,#blog a, #que-esperas a, #contacto input[type="submit"] {
+	font-size: 14px;
+	color: #fff;
+	background: #5cb8ff;
+	padding: 14px 24px;
+	width: 128px;
+	display: inline-block;
+}
+
+p.logo{
+	color:#fff;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+
+
+/*-------------------Seccion Experiencia Laboral*/
+#experiencia_laboral h2{
+	color: black;
+}
+
+#empleos{
+  width: 70%;
+  margin: 10px auto 2px;
+  color: black;
+  font-family: arial;
+  padding: 2px auto;;
+  background-color: white;
+  text-align:center;
+  }
+
+ .empleo aside{
+  padding: 0 100px;
+}
+
+.#empleos h2{
+  text-align: center;
+  color:black;
+ }
+
+#empleos img.izquierda {
+  float: left;
+  margin-right: 15px;
+}
+
+.reset {
+  clear: both;
+}
+
+.sol strong{
+  margin-right: 80px;
+}
+
+
+.compuland, .timsa, .gameloft, .uad{
+  margin-bottom: 40px;
+}
+.compuland h2{
+  margin-left: 100px;
+ }
+.compuland strong{
+  margin-right: 80px;
+}
+
+.technicolor h2{
+  margin-left: 100px;
+}
+
+.nube a{
+	color: blue;
+}
+
+/*Seccion educacion */
+
+.contenedor-educacion {
+	display:flex; 
+	justify-content: space-around; /* pone espacio entre los div */
+	flex-wrap: wrap;
+	color: #fff;
+}
+
+.educacion{
+	width: 24%;
+	padding: 34px 30px 38px 30px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.educacion h4{
+	font-size: 30px;
+	margin: 0;
+	
+}
+
+.educacion p {
+	margin-bottom: 20px;
+	height: 194px;
+}
+
+
+
+
+.contenedor-educacion .blue{
+	background: rgba(0, 153, 255);
+}
+
+.contenedor-educacion .blue h4 {
+	width: 
+	height: 50px;
+	background-color: grey;
+
+}
+
+
+
+
+
+
+.contenedor-educacion .blanco{ /* VERDE*/
+background: rgba(0, 153, 51);
+linear-gradient (to top, #40a8f9, #5cb8ff);
+-webkit-box-shadow: 10px 10px 12px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 12px 3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 12px 3px rgba(0,0,0,0.75);
+}
+
+.contenedor-educacion .blanco h4 {
+	width: 
+	height: 50px;
+	background-color: rgba(204, 204, 0);
+	color: black;
+
+}
+
+
+.icono{
+	float: right;
+}
+
+/* SECCION MIS TRABAJOS */
+
+.owl-theme .owl-nav [class*="owl-"] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 40px !important;
+}
+
+span{
+	color: #71bcfa;
+}
+
+/* SECCION DE COMO TRABAJAR CONMIGO */
+
+.contenedor-trabajar{
+	display: flex;
+	justify-content: space-around;
+}
+
+#por-que-trabajar .item {
+	width: 28%;
+	text-align: center;
+}
+
+#por-que-trabajar ul li{
+	list-style: none;
+}
+
+#por-que-trabajar ul li:nth-child(2) { /* Se manda llamar al elemento hijo numero 2, <li >es hijo de <ul> , en este caso <li>img es elmento hijo numero 1, titulo velocidad elemento <li> numero 2  y el texto <li el elemento numero 3*/
+	font-weight: bold;
+	font-size: 19px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3) {
+	line-height: 31px;
+}
+
+
+/*SECCION DEL BLOG PUBLICACIONES*/
+#blog {
+	background: #F9FAFC;
+}
+
+#blog .contenedor-publicaciones{
+	display: flex;
+	justify-content: space-around;
+}
+
+#blog .publicacion {
+	width: 30%;
+	box-shadow: 1px 1px 14px #ccc;
+}
+
+#blog .publicacion a{
+	font-size: 20px;
+}
+
+#blog img{
+	width: 100%;
+}
+
+#blog .contenido{
+	background: #fff;
+	padding:20px;
+}
+
+#blog h4{
+	margin: 0;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+#blog p {
+	color: #5A6169;
+	line-height: 24PX; /*SEPARA UN POCO LOS RENGLONES, INTERLINEADO */
+	font-size: 16px;
+}
+
+#blog a {
+	width: 87px;
+}
+
+
+/*Aqui comienza la seccion de que esperas  */
+
+#que-esperas {
+	background:linear-gradient(rgba(84,93,220,.94), rgba(96,171,254,.9));
+	text-align: center;
+	padding: 50px 0;
+	margin-top: 40px;
+}
+
+#que-esperas h3 {
+	font-size: 23px;
+	color: #fff;
+}
+
+/* SECCION CONTACTO */
+
+#contacto form {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 77%;
+margin: auto; 
+}
+
+input[type="text"], input[type="email"]{
+	width: 49%;
+	margin-bottom: 15px;
+	padding: 18px 0;
+	border: 0;
+	border-bottom: 1px solid #5cb8ff;
+	font-size: 17px;
+}
+
+textarea {
+	padding: 18px 0;
+	border: 0;
+	border-bottom: 1px solid #5cb8ff;
+	font-size: 17px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#contacto input[type="submit"]{
+	width: 166px;
+	margin: auto;
+}
+
+.contacto-info {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+.contacto-info img {
+	width: 28px;
+	vertical-align: middle; /* Sirve para poner el texto en la misma linea que la imagen */
+	margin-right: 10px;
+}
+
+/* AQUI COMIENZA EL PIE DE PAGINA */
+
+footer {
+	background: #2F2F2F;
+	padding: 40px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer .contenedor {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer img {
+	margin: 0 40px;
+	transform: rotate(0);
+	transition: 0.4s;  /* Tiempo de transicion Para que rote la imagen */
+}
+
+footer img:hover { /* Cuando el mouse pase sobre la imagen ejecutara el transform */
+	transform: rotate(360deg);	
+	transition: 0.4s;  /* Tiempo de transicion Para que rote la imagen */
+}
+
+footer p {
+	color: #fff;
+	margin-top: 40px;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+#mis-trabajos, #sobre-mi, #educacions, #mis-trabajos, #por-que-trabajar, #blog, #contacto {
+	padding: 90px 0;
+}
+/*---------------------IDIOMAS */
+
+
+
+.item li a {
+	color: black;
+}
+
+/* Idiomas */
+
+.it {
+	margin-left: 22px;
+}
+
+
+
+
+.menu-icon{
+	display: none;
+}
+
+@media (max-width: 800px) { /*Aqui se le dice que la pagina se va a ver en dispositivos que tengan un maximo de 800 pixeles */
+
+ .menu-icon {
+ 	display: block;
+ 	float: right;
+ 	width: 40px;
+ 	height: 35px;
+ 	margin-top: 15px;
+ }
+
+ header nav {
+ 	position: absolute;
+ 	top: 83px;
+ 	left: 0;
+ 	height: 268px;
+ 	background: #5cb8ff;
+ 	width: 100%;
+ 	display: none;
+ }
+
+
+ header nav ul{
+ 	flex-direction: column;
+
+ }
+
+header nav ul li {
+	margin-bottom: 15px;
+}
+
+h1{
+	font-size: 44px;
+}
+
+h2{
+	font-size: 19px;
+}
+
+#sobre-mi .contenedor-sobremi {
+	flex-direction: column;
+}
+
+#sobre-mi img{
+	width: 100%;
+}
+
+#sobre-mi .texto {
+	width: 100%;
+}
+
+.contenedor-educacion {
+	flex-direction: column;
+}
+
+.educacion{
+	width: 78%;
+	padding: 34px 30px 69px 30px;
+}
+
+.icono {
+	margin-top: 23px;
+}
+
+h3 {
+	font-size: 43px;
+}
+
+.contenedor-trabajar{
+	flex-direction: column;
+}
+
+#por-que-trabajar .item{
+	width: 100%;
+}
+
+.item ul {
+	padding: 0;
+}
+
+#blog .contenedor-publicaciones {
+	flex-direction: column;
+}
+
+#blog .publicacion {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+#contacto form {
+	flex-direction: column;
+	width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+}
+
+.contacto-info{
+	flex-direction: column;
+}
+
+.mail{
+	margin-bottom: 10%;
+}
+
+footer img{
+	margin: 0 10px;
+}
+
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) { /* para tablet */
+
+header{
+	height: 70vh;
+}
+
+.servicio {
+	width: 57%;
+	padding: 34px 30px 69px 30px;
+	margin: auto;
+	margin-bottom: 45px;
+}
+
+#blog .publicacion {
+	width: 71%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+}
